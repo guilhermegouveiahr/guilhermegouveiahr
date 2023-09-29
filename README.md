@@ -21,6 +21,8 @@
 
 **[Plan your migration](https://docs.github.com/en/migrations/using-github-enterprise-importer/understanding-github-enterprise-importer/migrating-from-azure-devops-with-github-enterprise-importer#planning-your-migration)** beforehand to ensure a smooth transition with the following steps, which will use the [GitHub Enterprise Importer](https://docs.github.com/en/migrations/using-github-enterprise-importer/understanding-github-enterprise-importer/about-github-enterprise-importer) tool to migrate your data.
 
+Alternatively, **check if your subscription includes migration services from a [GitHub's Expert Services team or a GitHub Partner](https://github.com/services/migrations).**
+
 - **Warn the team**: Notify your team of the upcoming migration.
  
 - **Backup data**: Ensure you have a backup of all data fron the Azure DevOps.
@@ -48,9 +50,6 @@
 
 - **[Dry-run migration](https://docs.github.com/en/migrations/using-github-enterprise-importer/understanding-github-enterprise-importer/migrating-from-azure-devops-with-github-enterprise-importer#running-your-migrations)**: Perform an automated test migration with [GitHub CLI extensions](https://docs.github.com/en/migrations/using-github-enterprise-importer/migrating-repositories-with-github-enterprise-importer/migrating-repositories-from-azure-devops-to-github-enterprise-cloud) and make sure to [**review the logs**](https://docs.github.com/en/migrations/using-github-enterprise-importer/completing-your-migration-with-github-enterprise-importer/accessing-your-migration-logs-for-github-enterprise-importer) for any errors.
 
-### Alternative Migration Option:
-- [GitHub's Expert Services team or a GitHub Partner](https://github.com/services/migrations): Check if your subscription includes migration services.
-
 # Migrating the Inventory
 
 ## Import Organization and Repositories to GitHub
@@ -64,7 +63,7 @@
 ## Migrate Additional Data
 - **Complete Data Migration**: This involves manually transferring any additional data like logs, events, service connections, etc., not covered in the previous steps.
 
-## Additional Considerations:
+# Additional Considerations:
 
 You can use either the GitHub CLI and API to run your migration. 
 
